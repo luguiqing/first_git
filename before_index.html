@@ -1,0 +1,1179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>登陆前首页</title>
+    <link rel="stylesheet" href="style/jquery.colorbox.css">
+    <link rel="stylesheet" href="style/jquery.pagewalkthrough.css">
+	<link rel="stylesheet" href="style/style.css">
+	<link rel="stylesheet" href="style/new.css">
+    <script src="js/jquery1.10.2.js"></script>
+    <script src="js/jquery.pagewalkthrough.min.js"></script>
+    <script src="js/swfobject.js"></script>
+    <script src="js/jquery.colorbox.js"></script>
+    <script src="js/jquery.scrollTo.js"></script>
+    <script src="js/jquery.placeholder.js"></script>
+    <script src="js/active.js"></script>
+    <script>
+        swfobject.embedSWF("js/envideo.swf", "objvideo", "544", "316", "9.0.0","expressInstall.swf",{name1:"hello",name2:"world",name3:"foobar"}, {menu:"false"}, {name:"dynamicContent5",wmode:"Opaque",loop:"false"});
+        window.onload=function(){
+                $("#objvideo")[0].StopPlay();
+        }
+    </script>
+</head>
+<body>
+<!-- 头部区块 start-->
+<div id="fix">
+    <div id="header">
+        <div class="center">
+            <a href="javascript:">
+                <div id="logo" title="Vivo">
+                </div>
+            </a>
+        </div>
+    </div>
+    <div id="sub_header">
+        <a href="javascript:">
+            <div id="logo">
+            </div>
+        </a>
+        <div class="logo">
+            <div class="logo_btn">
+                <input type="button" id="login_in" value="Login">
+            </div>
+            <div class="download_app">
+                <a href="javascript:">
+                    Download APP
+                </a>
+            </div>
+        </div>
+    </div>
+    <div id="menu_outer">
+        <div id="menu">
+            <ul>
+                <a class="menu_item" href="javascript:" key="0">
+                    <li>
+                        Why Use
+                    </li>
+                </a>
+                <a id="steap3" class="menu_item" href="javascript:" key="1">
+                    <li>
+                        How Use
+                    </li>
+                </a>
+                <a class="menu_item" href="javascript:" key="2">
+                    <li>
+                        Tariffs
+                    </li>
+                </a>
+                <a class="menu_item" href="javascript:" key="3">
+                    <li>
+                        Compability
+                    </li>
+                </a>
+                <a id="steap4" class="menu_item" href="javascript:" key="4">
+                    <li>
+                        Help
+                    </li>
+                </a>
+                <a class="menu_item" href="javascript:" key="5">
+                    <li>
+                        Cancel
+                    </li>
+                </a>
+                <a class="menu_item" href="javascript:" key="6">
+                    <li>
+                        Blacklist
+                    </li>
+                </a>
+            </ul>
+        </div>
+    </div>
+</div>
+<!-- 头部区块 end -->
+<!-- 大体内容 start-->
+<div id="body">
+    <div id="container" class="landing">
+        <div id="home">
+        	<!-- 图文 start -->
+            <div id="carrossel">
+                <div class="frame frame1">
+	              	<div class="frame_left">
+	                	<h1 class="title">
+			                Call Shine. Broadening the experience of your phone calls!
+			            </h1>
+	                    <div class="pic">
+                                <div class="image">
+                                    <div id="objvideo">
+                                    </div>
+                                    <div class="mark btn" id="mark">  
+                                        
+                                    </div>
+                                </div>
+                            
+	                    </div>
+	                </div>
+	                <div class="text">
+	                        <h2>
+	                            Your calls even more interactive!
+	                        </h2>
+	                        <p>
+	                            Create a previous text message and every time you call someone or someone calls you, your message 
+								will be automatically shown in the Display of the other
+								person. You will be communicating even before the 
+								call is answered! 
+	                        </p>
+	                        <p class="no_padding">
+	                        	<a href="#saiba-mais-psc" class="saiba-mais-psc saiba_mais">
+	                            &gt;&gt; Know More
+	                        	</a>
+	                        </p>
+	                        <p class="p_btn">
+	                        	<input type="button" id="subscribe" value="Subscribe Now">
+	                        </p>
+	                </div>
+                </div>
+            </div>
+            <div id="carrossel_control">
+                &nbsp;
+            </div>
+            <hr>
+            <div id="por_que_utilizar">
+                <div class="box_container">
+                    <div class="image">
+                    	<h1 class="title">
+		                   Why this service is useful
+		                </h1>
+		                <p>
+                        	<img src="images/img_1.jpg" width="326" height="198">
+                        </p>
+                    </div>
+                    <div class="box_item">
+                        <h2>
+                            You can send a text to someone you are calling.
+                        </h2>
+                        <div class="box">
+                            <p>
+                                Imagine that you have something important to talk to someone, but you are not registered as a known contact in the person’s agenda. With Call Shine, you can customize a text and, when you make a call, the text will appear in the receiver’s Display. That way you can send information such as your name and why you want to talk to the person, increasing your chances to be answered. 
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="box_container op">
+                    <div class="box_item">
+                        <h2>
+                            You can send a text to someone that’s calling you.
+                        </h2>
+                        <div class="box">
+                            <p>
+                                Imagine that you are in an important meeting and you can’t receive an incoming call, but you want to inform the person calling you that you are busy and will call back later. With Call shine you can customize a text and, when someone tries to call you, it will appear in the person’s Display the text created by you informing that you are busy. 
+                            </p>
+                        </div>
+                    </div>
+                    <div class="image">
+                        <img src="images/img_2.jpg">
+                    </div>
+                </div>
+                <div class="box_container">
+                    <div class="image image_change">
+                        <img src="images/img_3.jpg">
+                    </div>
+                    <div class="box_item box_change">
+                        <h2>
+                            Customize your texts.
+                        </h2>
+                        <div class="box">
+                            <p>
+                                You can customize your texts for specific Contacts, Groups and Everyone. You also can set up the time and day of the week that the text will be sent.  Also, you can set up a list of contacts to whom you don’t want to send any message.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+			<!-- 图文 end -->
+            <!-- 描述 start -->
+			<div class="desc">
+				<div class="tit">The possibilites are huge.</div>
+				<div class="desc_con">
+					<table border="0" cellpadding="0" cellspacing="0"> 
+						<tr>
+							<th><img src="images/ico_1.png" width="28" height="28"></th>
+							<td><em>Identification:</em> Feel safe answering a call from an unknown number by receiving a Call Shine message with the person’s ID</td>
+						</tr>
+						<tr>
+							<th><img src="images/ico_2.png" width="28" height="28"></th>
+							<td><em>Filter:</em> During a meeting, choose to answer your mother for something urgent and choose call later  a friend that calls about the soccer match on Sunday</td>
+						</tr>
+						<tr>
+							<th><img src="images/ico_3.png" width="28" height="28"></th>
+							<td><em>Without signal:</em> During trips with no network signal or low battery situations, with Call Shine  you can let everyone know that you are OK and you will call later.</td>
+						</tr>
+						<tr>
+							<th><img src="images/ico_4.png" width="28" height="28"></th>
+							<td><em>Safety:</em> In a bus stop or other place you don’t feel comfortable picking up your cell  and don’t want to act rude by not answering, set Call Shine message letting people know you are not available and call  later</td>
+						</tr>
+						<tr>
+							<th><img src="images/ico_5.png" width="28" height="28"></th>
+							<td><em>Good wishes:</em> Wish Merry Christmas to everyone that you call or call you</td>
+						</tr>
+						<tr>
+							<th><img src="images/ico_6.png" width="28" height="28"></th>
+							<td><em>Give a Justification:</em> Go to a party or music festival and let your parents know you are OK even if you don’t answer the call</td>
+						</tr>
+						<tr>
+							<th><img src="images/ico_7.png" width="28" height="28"></th>
+							<td><em>Differentiation:</em> If you are a hiring company, let  job candidates know you want to talk about a job opportunity</td>
+						</tr>
+						<tr>
+							<th><img src="images/ico_8.png" width="28" height="28"></th>
+							<td><em>Professional situations:</em> Use Call Shine as an “ID Card” and make an first professional approach to a prospective client</td>
+						</tr>
+						<tr>
+							<th><img src="images/ico_9.png" width="28" height="28"></th>
+							<td><em>Practicality:</em> Customize a romantic message for your partner</td>
+						</tr>
+					</table>
+				</div>
+			</div>	
+			<!-- 描述 end -->
+            <!-- 菜单2 start -->
+            <div id="como_utilizar">
+                <h1 class="title">
+                </h1>
+                <div class="custom_select">
+                    <div class="label">
+                        Operational system
+                    </div>
+                    <div class="option" title="android">
+                        Android
+                    </div>
+                    <div class="option" title="ios">
+                        iOS
+                    </div>
+                    <div class="option" title="blackberry">
+                        Blackberry
+                    </div>
+                    <div class="option" title="symbian">
+                        Symbian
+                    </div>
+                    <div class="option" title="pc">
+                        Windows
+                    </div>
+                    <div class="option webportal" title="webportal">
+                        Web
+                    </div>
+                    <div class="option" title="mac">
+                        Mac OS
+                    </div>
+                </div>
+                <div id="carrossel_header">
+                    <div class="tab">
+                        Como Instalar
+                    </div>
+                    <div class="tab selected">
+                        Como Utilizar
+                    </div>
+                </div>
+                <div id="carrossel_container">
+                    <div class="display_container">
+                        <div class="left_arrow" title="Anterior">
+                        </div>
+                        <div class="content">
+                            <div class="frames_container" id="frames_container1" style="margin-left: 0px;">
+                                <div class="frame">
+                                    <div class="display">
+                                        <img src="images/phone.jpg">
+                                    </div>
+                                    <div class="label">
+                                        <p>
+                                           After install, click on “Enter”
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="frame">
+                                    <div class="display">
+                                        <img src="images/phone.jpg">
+                                    </div>
+                                    <div class="label">
+                                        <p>
+                                           After install, click on “Enter”2222
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="frames_container" id="frames_container2" style="margin-left: 0px;">
+                                <div class="frame">
+                                    <div class="display">
+                                        <img src="images/phone.jpg">
+                                    </div>
+                                    <div class="label">
+                                        <p>
+                                           After install, click on “Enter”11111
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="frame">
+                                    <div class="display">
+                                        <img src="images/phone.jpg">
+                                    </div>
+                                    <div class="label">
+                                        <p>
+                                           After install, click on “Enter”333333
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="right_arrow" title="Próximo">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 菜单2 end -->
+            
+            <!-- 菜单3 start -->
+            <div id="compare">
+                <p>
+                    Send unlimited texts. You can send as many texts as you want with up to 140 characters. Such texts will be sent automatically during the establishment of a call.
+                </p>
+                <h2 class="subtitle">
+                    Enjoy 30 days free trial and know the service!
+                </h2>
+                <div class="tariffs">
+                	<div class="tit">Choose the best plan for you</div>
+                	<div class="price">
+                		<div class="price_box">
+                			<div class="p_no">Only for</div>
+							<h3>R$ 1,99 / Month</h3>
+							<h4>
+								<input type="button" value="Subscribe Now">
+							</h4>
+                		</div>
+                		<div class="price_box price_box_right">
+                			<div class="p_no">Only for</div>
+							<h3>R$ 0,50 / Week </h3>
+							<h4>
+								<input type="button" value="Subscribe Now">
+							</h4>
+                		</div>
+                	</div>
+                	<div class="link_to">
+                		<a href="javascript:">>> To subscribe by SMS send SUBSCRIBE to 1515 </a>
+                	</div>
+                </div>
+            </div>
+            <!-- 菜单3 end -->
+
+            <!-- 菜单4 start -->
+            <div id="compatibilidade">
+                <h1 class="title change_pd">
+                    Compability
+                </h1>
+                <h2 class="subtitle font12">
+                   Democratic service, Call Shine works on any Smartphone device and cell phones that have Vivo chip. No need to install any application.<br><br><br>
+                   Call Shine service is applicable to all mobile phones. <br>
+                   However the constraints for Call Shine Mobile APP and Call Shine Web-Portal are described below.
+                </h2>
+                <div class="requirements_table">
+                    <div class="outer_line">
+                        <div class="category">
+                            <img src="images/req_mobile.png">
+                        </div>
+                        <div class="description">
+                            <div class="line">
+                                <div class="col col1">
+                                    <span>
+                                        Android
+                                    </span>
+                                </div>
+                                <div class="col col2">
+                                    <span>
+                                        Smartphones, Tablets
+                                    </span>
+                                </div>
+                                <div class="col col3">
+                                    <span>
+                                        2.2.x, 2.3.x, 3.x, 4.x
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="line">
+                                <div class="col col1">
+                                    <span>
+                                        iOs
+                                    </span>
+                                </div>
+                                <div class="col col2">
+                                    <span>
+                                        iPhone, iPad, iPod Touch
+                                    </span>
+                                </div>
+                                <div class="col col3">
+                                    <span>
+                                        5.x, 6.x, 7.x
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="line">
+                                <div class="col col1">
+                                    <span>
+                                        Blackberry
+                                    </span>
+                                </div>
+                                <div class="col col2">
+                                    <span>
+                                        Smartphones
+                                    </span>
+                                </div>
+                                <div class="col col3">
+                                    <span>
+                                        4.5, 4.6, 4.7, 5.0, 6.0, 7.0
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="line">
+                                <div class="col col1">
+                                    <span>
+                                        Symbian
+                                    </span>
+                                </div>
+                                <div class="col col2">
+                                    <span>
+                                        Smartphones
+                                    </span>
+                                </div>
+                                <div class="col col3">
+                                    <span>
+                                        S60-3, S60-3FP1, S60-3FP2, S60-5, ^3, Anna
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="line">
+                                <!-- <div class="col col1"><span>Windows Phone</span></div>-->
+                                <div class="col col2">
+                                    <span>
+                                        Smartphones
+                                    </span>
+                                </div>
+                                <div class="col col3">
+                                    <span class="s_w">
+                                        8.0 ou superior
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="clear">
+                        </div>
+                    </div>
+                    <div class="outer_line">
+                        <div class="category">
+                            <img src="images/req_computer.png">
+                        </div>
+                        <div class="description">
+                            <div class="line">
+                                <div class="col col1">
+                                    <span>
+                                        Windows
+                                    </span>
+                                </div>
+                                <div class="col col2">
+                                    <span>
+                                        Computador
+                                    </span>
+                                </div>
+                                <div class="col col3">
+                                    <span>
+                                        XP,Vista,7,8 / para contatos e calendários: Outlook 2003,2007,2010(32
+                                        Bits),2013(32 Bits)
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="line">
+                                <div class="col col1">
+                                    <span>
+                                        Mac
+                                    </span>
+                                </div>
+                                <div class="col col2">
+                                    <span>
+                                        Computador
+                                    </span>
+                                </div>
+                                <div class="col col3">
+                                    <span>
+                                        10.6, 10.7, 10.8
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="line">
+                                <div class="col col1">
+                                    <span>
+                                        Internet
+                                    </span>
+                                </div>
+                                <div class="col col2">
+                                    <span>
+                                        Computador
+                                    </span>
+                                </div>
+                                <div class="col col3">
+                                    <span>
+                                        Mozilla Firefox, Google Chrome, Internet Explorer,
+                                        <br>
+                                        Safari (Mac)
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="clear">
+                        </div>
+                    </div>
+                </div>
+            </div>
+             <!-- 菜单4 end -->
+
+            <!-- 菜单5 start -->
+            <div id="ajuda">
+                <h1 class="title tit_h">
+                    Help
+                </h1>
+                <div class="help_topic">
+                    <div class="topic_title">
+                        What is Call Shine?
+                    </div>
+                    <div class="topic_content">
+                        <p>
+                            Call Shine is every time you call someone or someone calls you, your message will be automatically shown in the Display of the other person. You will be communicating even before the call is answered! 
+                        </p>
+                    </div>
+                </div>
+                <div class="help_topic">
+                    <div class="topic_title">
+                        Can I configure different texts to different people?
+                    </div>
+                    <div class="topic_content">
+                        <p>
+                            Os principais benefícios são:
+                        </p>
+                        <br>
+                        <p>
+                            • Sincronizar e armazenar com segurança todo o seu conteúdo pessoal como
+                            fotos, vídeos, músicas, contatos, calendário e em uma plataforma segura;
+                        </p>
+                        <p>
+                            • Permite que você acesse o seu conteúdo a partir de qualquer dispositivo
+                            como telefones celulares, computadores e tablets.
+                        </p>
+                        <p>
+                            • Compartilhar os seus conteúdos com seus amigos, familiares através de
+                            e-mail, redes sociais como Facebook e Twitter e muito mais.
+                        </p>
+                    </div>
+                </div>
+                <div class="help_topic">
+                    <div class="topic_title">
+                       What is the limit of characters in my text?
+                    </div>
+                    <div class="topic_content">
+                        <p>
+                            O Vivo Sync mantém seus dados protegidos e acessíveis de maneira simples.
+                            Veja alguns exemplos:
+                        </p>
+                        <br>
+                        <p>
+                            • Em caso de perda ou roubo do seu telefone, todas as suas informações
+                            de contato, fotos, vídeos, músicas e arquivos estarão armazenadas e protegidas
+                            na nuvem;
+                        </p>
+                        <p>
+                            • Caso queira mostrar uma foto ou um vídeo para seus amigos que esteja
+                            somente no seu computador, você poderá utilizar o seu telefone;
+                        </p>
+                        <p>
+                            • Às vezes gravamos, por exemplo, um determinado número de telefone ou
+                            endereço de e-mail importante e não lembramos em qual dispositivo está.
+                            O Vivo Sync sincroniza tudo para você em um mesmo lugar;
+                        </p>
+                        <p>
+                            • Se você precisar compartilhar (via e-mail ou sites de redes sócias)
+                            algum conteúdo que não está no seu Smartphone.
+                        </p>
+                    </div>
+                </div>
+                <div class="help_topic">
+                    <div class="topic_title">
+                        The texts will be stored in the cell?
+                    </div>
+                    <div class="topic_content">
+                        <p>
+                            O serviço funciona para todos os clientes da Vivo*, mas para contratar
+                            é necessário que o cliente tenha uma linha Vivo Móvel.
+                        </p>
+                        <p>
+                            *Não disponível para clientes Vivo Empresas.
+                        </p>
+                    </div>
+                </div>
+                <div class="help_topic">
+                    <div class="topic_title">
+                       Can I select a person or a group to not receive any of my texts?
+                    </div>
+                    <div class="topic_content">
+                        <p>
+                            Você pode assinar o serviço através dos seguintes canais:
+                        </p>
+                        <br>
+                        <p>
+                            • Através do site
+                            <a href="www.vivosync.com.br" target="_blank" style="font-family: 'OfficinaSerifStd-Bold',Verdana,Geneva,sans-serif;color: #609;text-decoration: none;font-size: 18px;margin-top: -20px;float: right;display: none;">
+                            </a>
+                            www.vivosync.com.br;
+                        </p>
+                        <p>
+                            • Através do Meu Vivo;
+                        </p>
+                        <p>
+                            • Enviando um SMS para 1515 com a palavra de texto “SYNC”
+                        </p>
+                    </div>
+                </div>
+                <div class="help_topic">
+                    <div class="topic_title">
+                        How I can create new texts messages?
+                    </div>
+                    <div class="topic_content">
+                        <p>
+                            Para utilizar o Vivo Sync é fácil. Basta assinar o serviço através dos
+                            canais de contratação e instalar o aplicativo em um dispositivo compatível.
+                        </p>
+                    </div>
+                </div>
+                <div class="help_topic">
+                    <div class="topic_title">
+                        Do the texts messages have an expiration date?
+                    </div>
+                    <div class="topic_content">
+                        <p>
+                            Sim. Você pode atualizar o seu armazenamento a qualquer momento.
+                        </p>
+                    </div>
+                </div>
+                <div class="help_topic">
+                    <div class="topic_title">
+                        Can I choose the time that my message will be sent?
+                    </div>
+                    <div class="topic_content">
+                        <p>
+                            Sim. Você pode reduzir o seu espaço para qualquer um dos pacotes abaixo:
+                        </p>
+                        <br>
+                        <p>
+                            • Ilimitado para 100GB
+                        </p>
+                        <p>
+                            • 100 GB para 20GB
+                        </p>
+                    </div>
+                </div>
+                <div class="help_topic">
+                    <div class="topic_title">
+                       Can I choose the days of the week that my message will be sent?
+                    </div>
+                    <div class="topic_content">
+                        <p>
+                            Você pode diminuir o seu espaço de armazenamento (downgrade) a qualquer
+                            momento. Para isto, é preciso que o conteúdo armazenado no seu Vivo Sync
+                            seja menor ou igual ao espaço disponível no novo pacote.
+                        </p>
+                        <p>
+                            Ex.: Caso você possua um pacote de 100GB e queira trocar para o pacote
+                            de 20GB, você somente conseguirá efetuar o procedimento uma vez que o seu
+                            conteúdo armazenado no Vivo Sync for igual ou menor a 20GB.
+                        </p>
+                    </div>
+                </div>
+                <div class="help_topic">
+                    <div class="topic_title">
+                       Can I create a text and send it only when I make a call?
+                    </div>
+                    <div class="topic_content">
+                        <p>
+                            Neste caso a opção de efetuar downgrade não estará disponível para você,
+                            até que você consiga reduzir o espaço utilizado.
+                        </p>
+                    </div>
+                </div>
+                <div class="help_topic">
+                    <div class="topic_title">
+                        Can I create a text and send it only when I receive a call?
+                    </div>
+                    <div class="topic_content">
+                        <p>
+                            Para bloquear este serviço em sua linha, ligue gratuitamente do seu Vivo
+                            para *5050, digite o código 878 e selecione a opção “Bloquear Serviço”
+                            no menu do Portal de Voz.
+                        </p>
+                        <p>
+                            Depois de realizar esse procedimento, em até 48 horas o serviço será bloqueado
+                            para sua linha.
+                        </p>
+                        <p>
+                            Obs.: Caso o serviço já esteja ativo em sua linha, antes de realizar o
+                            procedimento de bloqueio você deverá cancelar o serviço.
+                        </p>
+                        <p>
+                            Para desbloquear o serviço, ligue do seu Vivo para *5050 e siga o procedimento
+                            de desbloqueio.
+                        </p>
+                    </div>
+                </div>
+                <div class="help_topic">
+                    <div class="topic_title">
+                       Can I create one same text to be send when I make and receive a call?
+                    </div>
+                    <div class="topic_content">
+                        <p>
+                            Caso você não efetue o pagamento do serviço após 14 dias, você não conseguirá
+                            realizar novos uploads e sincronizar suas informações.
+                        </p>
+                    </div>
+                </div>
+                <div class="help_topic">
+                    <div class="topic_title">
+                        How can I manage my texts? 
+                    </div>
+                    <div class="topic_content">
+                        <p>
+                            São 6 (seis) tipos de conteúdos suportados:
+                        </p>
+                        <br>
+                        <p>
+                            • Fotos
+                        </p>
+                        <p>
+                            • Vídeos
+                        </p>
+                        <p>
+                            • Música
+                        </p>
+                        <p>
+                            • Documentos (arquivos)
+                        </p>
+                        <p>
+                            • Contatos
+                        </p>
+                        <p>
+                            • Calendário
+                        </p>
+                    </div>
+                </div>
+                <div class="help_topic">
+                    <div class="topic_title">
+                        How much does the service cost?
+                    </div>
+                    <div class="topic_content">
+                        <p>
+                            Não. Neste caso, você deverá exportar os seus arquivos para o seu computador
+                            e em seguida realizar o upload para o Vivo Sync.
+                        </p>
+                    </div>
+                </div>
+                <div class="help_topic">
+                    <div class="topic_title">
+                      How can I cancel the service?
+                    </div>
+                    <div class="topic_content">
+                        <p>
+                            Caso você realize o upgrade ou downgrade do seu pacote, você pagará na
+                            próxima fatura o valor do pacote contratado.
+                        </p>
+                    </div>
+                </div>
+                <div class="help_topic">
+                    <div class="topic_title">
+                        How long does it take to activate the sending of the messages I create?
+                    </div>
+                    <div class="topic_content">
+                        <p>
+                            Basta instalar o aplicativo do Vivo Sync no seu novo aparelho, informar
+                            login e Senha, e aguardar a sincronização das informações para este novo
+                            aparelho.
+                        </p>
+                    </div>
+                </div>
+                <div class="help_topic">
+                    <div class="topic_title">
+                        How can I create a group?
+                    </div>
+                    <div class="topic_content">
+                        <p>
+                            Existem duas formas: Por Portal ou por aplicativo.
+                        </p>
+                        <br>
+                        <p>
+                            • Portal : Acesse o Portal do Vivo Sync por computador ou celular, clique
+                            em “Acessar conta” e depois em “Esqueceu a senha?”.
+                        </p>
+                        <p>
+                            • Aplicativo: Abra a app do Vivo Sync e selecione “Esqueceu a senha?””
+                            na tela de login. Você receberá um código por SMS e E-mail. Use-o no passo-a-passo
+                            da redefinição.
+                        </p>
+                    </div>
+                </div>
+                <div class="help_topic">
+                    <div class="topic_title">
+                        Can one contact be a part of more than one group?
+                    </div>
+                    <div class="topic_content">
+                        <p>
+                            SIM. Caso você altere a sua senha, ela precisará ser modificada em todos
+                            os outros dispositivos. Caso esteja logado, é necessário sair e entrar
+                            novamente com a nova senha.
+                        </p>
+                    </div>
+                </div>
+                <div class="help_topic">
+                    <div class="topic_title">
+                       What is the limit of messages sent by month?
+                    </div>
+                    <div class="topic_content">
+                        <p>
+                            Não. O Blackberry possui a funcionalidade de sincronização de fotos, contatos
+                            e calendário, mas infelizmente não possui a funcionalidade de Compartilhamento.
+                        </p>
+                    </div>
+                </div>
+                <div class="help_topic">
+                    <div class="topic_title">
+                        Can I send one message for everyone and another to a contact or a group?
+                    </div>
+                    <div class="topic_content">
+                        <p>
+                            Não. O Symbiam possui a funcionalidade de sincronização de fotos, contatos
+                            e calendário, mas infelizmente não possui a funcionalidade de Compartilhamento.
+                        </p>
+                    </div>
+                </div>
+                <div class="help_topic">
+                    <div class="topic_title">
+                       Can I send a Call Shine messages to others Mobile carriers?
+                    </div>
+                    <div class="topic_content">
+                        <p>
+                            Para acessar o portal do Vivo Sync basta fazer o login em "Acesse o Portal".
+                        </p>
+                        <br>
+                        <p>
+                            • Você pode adicionar novas fotos, vídeos e arquivos diretamente pelo
+                            Browser;
+                        </p>
+                        <p>
+                            • Você pode adicionar ou editar seus contatos e calendários.
+                        </p>
+                        <p>
+                            • Você pode realizar o download dos seus conteúdos armazenados na nuvem
+                            diretamente para o seu computador;
+                        </p>
+                        <p>
+                            • Você pode compartilhar os seus conteúdos com seus amigos através de
+                            e-mail e redes sociais (Facebook, Twitter, Flickr, Picasa, Youtube).
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!-- 菜单5 end -->
+
+            <!-- 菜单6 start -->
+            <div class="cancel">
+            	<div class="tit">
+            		How to Cancel
+            	</div>
+            	<div class="cancel_con">
+            		<div class="word">
+            			<h3>SMS</h3>
+            			<h4>To cancel Call Shine signature by SMS, send “SAIR” to 1515.</h4>
+            			<h3>Vivo Call Center</h3>
+            			<h4>Call 1050 from any telephone.</h4>
+            			<h3>Website</h3>
+            			<h4>In the website login into your account and go to Cancel tab.</h4>
+            			<h3>APP</h3>
+            			<h4>Include APP as unsubscription Channel.</h4>
+            		</div>
+            	</div>
+            </div>
+            <div class="blacklist">
+                <div class="tit">
+                    How to use blacklist
+                </div>
+                <h2 class="subtitle font12">
+                   The service subscriber is able to blacklist any user so that the users in the blacklist are not able to receive messages anymore.
+                </h2>
+            </div>
+        </div>
+    </div>
+    <div style="display: none;">
+        <a href="#account_login" class="login_icon cboxElement" id="modal_login">
+        </a>
+        <div id="account_login" class="modal">
+            <div class="modal_header">
+                <div class="close">
+                </div>
+                <div class="title">
+                    Login
+                </div>
+            </div>
+            <hr>
+            <h1>
+                Faça login para acessar o portal do usuário
+            </h1>
+            <p class="message">
+                Preencha os campos abaixo:
+            </p>
+            <input type="text" name="account_user" class="phone_mask" id="account_user"
+            placeholder="Digite seu número Vivo">
+            <input type="password" name="account_password" id="account_password" placeholder="Senha">
+            <div style="float: left; margin: 25px">
+                <a href="#esqueceu-sua-senha" class="esqueci-minha-senha cboxElement"
+                style="color: #660099; font-weight: bold; font-family: verdana; font-size: 12px">
+                    Esqueceu sua senha?
+                </a>
+            </div>
+            <input type="submit" value="" title="login" id="account_submit">
+            <br>
+        </div>
+    </div>
+</div>
+<!-- 大体内容 end -->
+<!-- footer start-->
+<div id="footer">
+    <div class="line">
+        <ul>
+            <a class="menu_item" id="footer0" key="0">
+                <li>
+                    Why Use
+                </li>
+            </a>
+            <a class="menu_item" id="footer1" key="1">
+                <li>
+                    How Use
+                </li>
+            </a>
+            <a class="menu_item" id="footer2" key="2">
+                <li>
+                    Tariffs
+                </li>
+            </a>
+            <a class="menu_item" id="footer5" key="3">
+                <li>
+                    Compability
+                </li>
+            </a>
+            <a class="menu_item" id="footer3" key="4">
+                <li>
+                    Help
+                </li>
+            </a>
+            <a class="menu_item" id="footer6" key="5">
+                <li>
+                    Cancel
+                </li>
+            </a>
+            <a class="menu_item" id="footer6" key="6">
+                <li>
+                    Blacklist
+                </li>
+            </a>
+        </ul>
+    </div>
+    <div class="under">
+        <div class="center">
+            <hr>
+            <div class="telefonica">
+            </div>
+            <div class="vivo">
+            </div>
+        </div>
+    </div>
+</div>
+<!-- footer end -->
+<!-- 各类弹框 know more-->
+<div style="display:none;">
+    <div id="saiba-mais-psc" class="modal">
+        <div class="cont">
+            <div class="modal_header">
+                <div class="close"></div>
+                <div class="title">Your calls even more interactive!</div>
+            </div>
+            <div class="text">
+                <p class="p_1">Call shine is a service that enables the user to send a text during a Incoming Call or a Dialing Call. You create a text previously through Include APP and when someone calls you or when you call others, the message will appear, in the form of a FLASH SMS, in the Display of the person trying to call you or the person you are trying to call. </p>
+                <p class="p_1">This text is useful in numerous contexts: identification of the caller, ticipating a call’s subject and many more.</p>
+                <p class="p_1">To help your texts to be more effective, the service lets you manage your messages and contacts so you can:</p>
+                <p class="p_bg">Send the message to a specific number or group.</p>
+                <p class="p_bg">Send the message to a specific number or group. Choose to only send the message to the people that you are calling or to the    people calling you. </p>
+                <p class="p_bg">Set up a list of contacts to whom you don’t want to send any message.</p>
+                <p class="p_bg">Choose a specific time and day of the week.  </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- 登陆 -->
+<div style="display: none">
+    <a href="#alerte" class="login_icon" id="modal_alert"></a>
+    <div id="alerte" class="modal">
+        <div class="cont">
+            <div class="modal_header">
+                    <div class="close"></div>
+                    <div class="title"></div>
+            </div>
+                <div id="message" class="text_left"></div>
+                <div class="input" id="code">
+                    <div class="num">
+                        <input type="text" placeholder="Type your cellphone number" id="code_num">
+                    </div>
+                    <div id="code_btn" class="close_ok">OK</div>
+                </div>
+                <div class="phnoe_erro">
+                    <p>This number does not exist, please re-enter.</p>
+                    <input type="button" id="subscribe2" value="Subscribe">
+                </div>
+                <div class="input" id="input1">
+                    <div class="num">
+                        <input type="text" placeholder="Type your cellphone number" id="dinggou_num">
+                    </div>
+                    <div id="close_ok1" class="close_ok">OK</div>
+                </div>
+                <div class="input" id="input2">
+                    <div class="num">
+                        <input type="text" placeholder="Type your SMS password" id="dinggou">
+                    </div>
+                    <div id="close_ok2" class="close_ok">OK</div>
+                </div>
+                <div class="tips">Sorry,you are not Call Shine user, please activate it first</div>
+        </div>
+    </div>    
+</div>
+<!-- 验证码 -->
+<div style="display:none;">
+    <a href="#phone" class="login_icon" id="phone_a"></a>
+    <div id="phone" class="modal">
+        <div class="cont">
+            <div class="modal_header">
+                <div class="close"></div>
+                <div class="title">Your calls even more interactive!</div>
+            </div>
+            <div id="message" class="text_left"></div>
+            <div class="phone_tips">
+                <div class="num">
+                    <input type="text" placeholder="Type your SMS password" id="code_text">
+                </div>
+                <div id="code_text_btn" class="close_ok">OK</div>
+            </div>
+            <div class="countdown">
+               Password has been sent to your phone, please in <em></em>S after the re-send.
+            </div>
+        </div>
+    </div>
+</div>
+<!-- 随机码失败 -->
+<div style="display:none;">
+    <a href="#random" class="login_icon" id="random_a"></a>
+    <div id="random" class="modal">
+        <div class="cont">
+            <div class="modal_header">
+                <div class="close"></div>
+                <div class="title">Your calls even more interactive!</div>
+            </div>
+            <div id="message" class="text_left"></div>
+            <div class="phone_tips">
+                <div class="num">
+                    <input type="text" placeholder="Type your SMS password" id="input_fo">
+                </div>
+                <div id="re-obtain" class="close_ok">OK</div>
+            </div>
+            <div class="tips_re">Password was error, please re - obtain the password.</div>
+            <div class="countdown">
+               Password has been sent to your phone, please in <em></em>S after the re-send.
+            </div>
+        </div>
+    </div>
+</div>
+<!-- 引导内容 -->
+<div id="walkthrough-content" style="display:none">
+    <div id="walkthrough-2"> 
+        <a href="javascript:" class="pageclose"></a>
+        Click play,watch the video,<br>
+        faster to understand Call Shine.
+    </div> 
+ 
+    <div id="walkthrough-3">
+        <a href="javascript:" class="pageclose"></a> 
+         Call Shine APP is also on the line,<br>
+         click to download
+    </div> 
+ 
+    <div id="walkthrough-4"> 
+        <a href="javascript:" class="pageclose"></a>
+        Click here,you can see the use of APP tutorial 
+    </div> 
+ 
+    <div id="walkthrough-5"> 
+        <a href="javascript:" class="pageclose"></a>
+        In the course of use,there are any question,
+        please click "Help". 
+    </div> 
+    <div id="walkthrough-6"> 
+        <a href="javascript:" class="pageclose"></a>
+        Call Shine is so funny,<br>
+        so! subscribe now!
+    </div> 
+</div> 
+</body>
+<script>
+    $(function(){
+        $('body').pagewalkthrough({ 
+        name: 'introduction', 
+        steps: [{ 
+            wrapper: '#mark', 
+            popup: { 
+                content: '#walkthrough-2', 
+                type: 'tooltip', 
+                position: 'right' 
+            } 
+        }, { 
+            wrapper: '.download_app a', 
+            popup: { 
+                content: '#walkthrough-3', 
+                type: 'tooltip', 
+                position: 'bottom' 
+            } 
+        }, { 
+            wrapper: '#steap3', 
+            popup: { 
+                content: '#walkthrough-4', 
+                type: 'tooltip', 
+                position: 'bottom' 
+            } 
+        }, { 
+            wrapper: '#steap4', 
+            popup: { 
+                content: '#walkthrough-5', 
+                type: 'tooltip', 
+                position: 'bottom' 
+            } 
+        },{ 
+            wrapper: '#subscribe', 
+            popup: { 
+                content: '#walkthrough-6', 
+                type: 'tooltip', 
+                position: 'top' 
+            } 
+        }] 
+    }); 
+ 
+    // Show the tour 
+    $('body').pagewalkthrough('show');
+    });
+</script>
+</html>

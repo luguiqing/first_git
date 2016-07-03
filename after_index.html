@@ -1,0 +1,1131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>登陆后首页</title>
+    <link rel="stylesheet" href="style/jquery.colorbox.css">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/new.css">
+    <script src="js/jquery1.10.2.js"></script>
+    <script src="js/jquery.colorbox.js"></script>
+    <script src="js/jquery.scrollTo.js"></script>
+    <script src="js/jquery.placeholder.js"></script>
+    <script src="js/active.js"></script>
+    <script>
+        $(function(){
+            $("#login_out").click(function(event) {
+                window.location.href="before_index.html";
+            });
+        })
+    </script>
+</head>
+<body>
+<!-- 头部区块 start-->
+<div id="fix">
+    <div id="header">
+        <div class="center">
+            <a href="javascript:">
+                <div id="logo" title="Vivo">
+                </div>
+            </a>
+        </div>
+    </div>
+    <div id="sub_header">
+        <a href="javascript:">
+            <div id="logo">
+            </div>
+        </a>
+        <div class="logo">
+            <div class="logo_btn">
+                <input type="button" id="login_out" value="Log out">
+            </div>
+            <div class="download_app">
+                <a href="javascript:">
+                    Download APP
+                </a>
+            </div>
+        </div>
+    </div>
+    <div id="menu_outer">
+        <div id="menu">
+            <ul>
+                <a class="menu_item_2" href="javascript:" key="0">
+                    <li>
+                        Message
+                    </li>
+                </a>
+                <a class="menu_item_2" href="javascript:" key="1">
+                    <li>
+                        Contacts
+                    </li>
+                </a>
+                <a class="menu_item_2" href="javascript:" key="2">
+                    <li>
+                        Blacklist
+                    </li>
+                </a>
+                <a class="menu_item_2" href="javascript:" key="3">
+                    <li>
+                        Contents
+                    </li>
+                </a>
+                <a class="menu_item_2" href="javascript:" key="4">
+                    <li>
+                        Cancel
+                    </li>
+                </a>
+            </ul>
+        </div>
+    </div>
+</div>
+<!-- 头部区块 end -->
+<!-- 大体内容 start-->
+<div id="body">
+    <div id="container" class="landing">
+        <div id="home">
+            <!-- menu1 start-->
+            <div class="message">
+                <div class="message_box">
+                    <h3>Here you can create and manage your messages. All you have to do is type a up to 140 characters 
+                    message and choose the Sending parameters:
+                    </h3>
+                    <p>You can choose to send a message when you make a call or when you receive a call or both (send and receive).</p>
+                    <p>Who will receive the message.</p>
+                    <p>Time period and day of the week.</p>
+                    <h4><a href="#knowmore" class="knowmore_a">&gt;&gt; Know more</a></h4>
+                </div>
+                <div class="message_type">
+                    <div class="menu_li">
+                        <ul>
+                            <li class="sel">Insert New Message</li>
+                            <li>Active Messages</li>
+                            <li>My History</li>
+                        </ul>
+                    </div>
+                    <div class="message_info">
+                        <div class="menu_1">
+                            <div class="textar">
+                                <textarea placeholder="Type a new message"></textarea>
+                            </div>
+                            <div class="choose">
+                                <table border="0" cellpadding="0" cellspacing="0">
+                                    <tr>
+                                        <th width="268">Message State</th>
+                                        <th width="228">The receiver</th>
+                                        <th>Sending time</th>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div class="state">
+                                                <ul>
+                                                    <li>
+                                                        <a class="sel" href="javascript:">Send message<br>
+                                                    when i made a call</a>
+                                                    </li>
+                                                    <li>
+                                                       <a href="javascript:">Send message<br>
+                                                    when i receive a call</a> 
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="receiver">
+                                                <ul>
+                                                    <li><a class="sel" href="javascript:">Everybody</a></li>
+                                                    <li><a href="#select_member" class="knowmore_a">Specific contact</a></li>
+                                                    <li><a href="#group" class="knowmore_a">Group</a></li>
+                                                </ul>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="time">
+                                                <p>
+                                                    <span>
+                                                        S<br>
+                                                        <img src="images/check_on.png" class="have">
+                                                    </span>
+                                                    <span>
+                                                        M<br>
+                                                        <img src="images/check_off.png" alt="">
+                                                    </span>
+                                                    <span>
+                                                        T<br>
+                                                        <img src="images/check_off.png" alt="">
+                                                    </span>
+                                                    <span>
+                                                        W<br>
+                                                        <img src="images/check_off.png" alt="">
+                                                    </span>
+                                                    <span>
+                                                        T<br>
+                                                        <img src="images/check_off.png" alt="">
+                                                    </span>
+                                                    <span>
+                                                        F<br>
+                                                        <img src="images/check_off.png" alt="">
+                                                    </span>
+                                                    <span>
+                                                        S<br>
+                                                        <img src="images/check_off.png" alt="">
+                                                    </span>
+                                                </p>
+                                                <h5>
+                                                    Hour <a href="javascript:">
+                                                        08:00
+                                                    </a>
+                                                    To
+                                                    <a href="javascript:">
+                                                        08:00
+                                                    </a>
+                                                </h5>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="3">
+                                            <input type="button" value="Save" id="save_btn" class="save">
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                        <div class="menu_2" style="display:none">
+                            <div class="list">
+                                <ul>
+                                    <li>
+                                        <div class="top">
+                                           <div class="top_left">
+                                               <span><a href="javascript:"></a><em>Send a message when i make a call</em></span>
+                                               <span><a href="javascript:"></a><em>Everybody </em></span>
+                                               <span><a href="javascript:"></a><em>Monday</em></span>
+                                           </div> 
+                                           <div class="top_time">
+                                               20:01-21:26
+                                           </div>
+                                        </div>   
+                                        <div class="wd">
+                                            <div class="wd_left">
+                                                <div class="textarea" contenteditable="true">Life is so wonderful, so live a good life</div>
+                                            </div>
+                                            <div class="wd_btn">
+                                                <input class="edit" type="button" value="Edit">
+                                                <input class="deactive" type="button" value="Deactive">
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="top">
+                                           <div class="top_left">
+                                               <span><a href="javascript:"></a><em>Send a message when i make a call</em></span>
+                                               <span><a href="javascript:"></a><em>Everybody </em></span>
+                                               <span><a href="javascript:"></a><em>Monday</em></span>
+                                           </div> 
+                                           <div class="top_time">
+                                               20:01-21:26
+                                           </div>
+                                        </div>   
+                                        <div class="wd">
+                                            <div class="wd_left">
+                                                <div class="textarea" contenteditable="true">Life is so wonderful, so live a good life</div>
+                                            </div>
+                                            <div class="wd_btn">
+                                                <input class="edit" type="button" value="Edit">
+                                                <input class="deactive" type="button" value="Deactive">
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="top">
+                                           <div class="top_left">
+                                               <span><a href="javascript:"></a><em>Send a message when i make a call</em></span>
+                                               <span><a href="javascript:"></a><em>Everybody </em></span>
+                                               <span><a href="javascript:"></a><em>Monday</em></span>
+                                           </div> 
+                                           <div class="top_time">
+                                               20:01-21:26
+                                           </div>
+                                        </div>   
+                                        <div class="wd">
+                                            <div class="wd_left">
+                                                <div class="textarea" contenteditable="true">Life is so wonderful, so live a good life</div>
+                                            </div>
+                                            <div class="wd_btn">
+                                                <input class="edit" type="button" value="Edit">
+                                                <input class="deactive" type="button" value="Deactive">
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="top">
+                                           <div class="top_left">
+                                               <span><a href="javascript:"></a><em>Send a message when i make a call</em></span>
+                                               <span><a href="javascript:"></a><em>Everybody </em></span>
+                                               <span><a href="javascript:"></a><em>Monday</em></span>
+                                           </div> 
+                                           <div class="top_time">
+                                               20:01-21:26
+                                           </div>
+                                        </div>   
+                                        <div class="wd">
+                                            <div class="wd_left">
+                                                <div class="textarea" contenteditable="true">Life is so wonderful, so live a good life</div>
+                                            </div>
+                                            <div class="wd_btn">
+                                                <input class="edit" type="button" value="Edit">
+                                                <input class="deactive" type="button" value="Deactive">
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="top">
+                                           <div class="top_left">
+                                               <span><a href="javascript:"></a><em>Send a message when i make a call</em></span>
+                                               <span><a href="javascript:"></a><em>Everybody </em></span>
+                                               <span><a href="javascript:"></a><em>Monday</em></span>
+                                           </div> 
+                                           <div class="top_time">
+                                               20:01-21:26
+                                           </div>
+                                        </div>   
+                                        <div class="wd">
+                                            <div class="wd_left">
+                                                <div class="textarea" contenteditable="true">Life is so wonderful, so live a good life</div>
+                                            </div>
+                                            <div class="wd_btn">
+                                                <input class="edit" type="button" value="Edit">
+                                                <input class="deactive" type="button" value="Deactive">
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="outpage outpage2">
+                                <div class="page">
+                                    <a href="javascript:" class="last">
+                                         <img src="images/last.png" alt="">
+                                    </a>
+                                    <a href="javascript:" class="at">1</a>
+                                    <a href="javascript:" class="at">2</a>
+                                    <a href="javascript:" class="at">3</a>
+                                    <a href="javascript:" class="at">4</a>
+                                    <a href="javascript:" class="at">5</a>
+                                    <a href="javascript:" class="at">6</a>
+                                    <a href="javascript:" class="at">7</a>
+                                    <a href="javascript:" class="next">
+                                        <img src="images/next.png" alt="">
+                                    </a>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="menu_3" style="display:none">
+                            <div class="list">
+                                <ul>
+                                    <li>
+                                        <div class="top">
+                                           <div class="top_left">
+                                               <span><a href="javascript:"></a><em>Send a message when i make a call</em></span>
+                                               <span><a href="javascript:"></a><em>Everybody </em></span>
+                                               <span><a href="javascript:"></a><em>Monday</em></span>
+                                           </div> 
+                                           <div class="top_time">
+                                               20:01-21:26
+                                           </div>
+                                        </div>   
+                                        <div class="wd">
+                                            <div class="wd_left">
+                                                <div class="textarea" contenteditable="true">Life is so wonderful, so live a good life</div>
+                                            </div>
+                                            <div class="wd_btn">
+                                                <input class="delete" type="button" value="Delete">
+                                                <input class="activate" type="button" value="Activate">
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="top">
+                                           <div class="top_left">
+                                               <span><a href="javascript:"></a><em>Send a message when i make a call</em></span>
+                                               <span><a href="javascript:"></a><em>Everybody </em></span>
+                                               <span><a href="javascript:"></a><em>Monday</em></span>
+                                           </div> 
+                                           <div class="top_time">
+                                               20:01-21:26
+                                           </div>
+                                        </div>   
+                                        <div class="wd">
+                                            <div class="wd_left">
+                                                <div class="textarea" contenteditable="true">Life is so wonderful, so live a good life</div>
+                                            </div>
+                                            <div class="wd_btn">
+                                                <input class="delete" type="button" value="Delete">
+                                                <input class="activate" type="button" value="Activate">
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="top">
+                                           <div class="top_left">
+                                               <span><a href="javascript:"></a><em>Send a message when i make a call</em></span>
+                                               <span><a href="javascript:"></a><em>Everybody </em></span>
+                                               <span><a href="javascript:"></a><em>Monday</em></span>
+                                           </div> 
+                                           <div class="top_time">
+                                               20:01-21:26
+                                           </div>
+                                        </div>   
+                                        <div class="wd">
+                                            <div class="wd_left">
+                                                <div class="textarea" contenteditable="true">Life is so wonderful, so live a good life</div>
+                                            </div>
+                                            <div class="wd_btn">
+                                                <input class="delete" type="button" value="Delete">
+                                                <input class="activate" type="button" value="Activate">
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="top">
+                                           <div class="top_left">
+                                               <span><a href="javascript:"></a><em>Send a message when i make a call</em></span>
+                                               <span><a href="javascript:"></a><em>Everybody </em></span>
+                                               <span><a href="javascript:"></a><em>Monday</em></span>
+                                           </div> 
+                                           <div class="top_time">
+                                               20:01-21:26
+                                           </div>
+                                        </div>   
+                                        <div class="wd">
+                                            <div class="wd_left">
+                                                <div class="textarea" contenteditable="true">Life is so wonderful, so live a good life</div>
+                                            </div>
+                                            <div class="wd_btn">
+                                                <input class="delete" type="button" value="Delete">
+                                                <input class="activate" type="button" value="Activate">
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="top">
+                                           <div class="top_left">
+                                               <span><a href="javascript:"></a><em>Send a message when i make a call</em></span>
+                                               <span><a href="javascript:"></a><em>Everybody </em></span>
+                                               <span><a href="javascript:"></a><em>Monday</em></span>
+                                           </div> 
+                                           <div class="top_time">
+                                               20:01-21:26
+                                           </div>
+                                        </div>   
+                                        <div class="wd">
+                                            <div class="wd_left">
+                                                <div class="textarea" contenteditable="true">Life is so wonderful, so live a good life</div>
+                                            </div>
+                                            <div class="wd_btn">
+                                                <input class="delete" type="button" value="Delete">
+                                                <input class="activate" type="button" value="Activate">
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="outpage outpage2">
+                                <div class="page">
+                                    <a href="javascript:" class="last">
+                                         <img src="images/last.png" alt="">
+                                    </a>
+                                    <a href="javascript:" class="at">1</a>
+                                    <a href="javascript:" class="at">2</a>
+                                    <a href="javascript:" class="at">3</a>
+                                    <a href="javascript:" class="at">4</a>
+                                    <a href="javascript:" class="at">5</a>
+                                    <a href="javascript:" class="at">6</a>
+                                    <a href="javascript:" class="at">7</a>
+                                    <a href="javascript:" class="next">
+                                        <img src="images/next.png" alt="">
+                                    </a>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- menu1 end-->
+            
+            <!-- menu2 start-->
+            <div class="contacts">
+                <div class="tit">
+                    <h3>Contacts</h3>
+                    <h4>Here you can manage your groups. You can create a new group, edit it and delete .</h4>
+                </div>
+                <div class="source">
+                    <div class="slide">
+                        <div class="group_tit">
+                            Group Name
+                        </div>
+                        <div class="group">
+                            <ul>
+                                <li class="sel">Friends <span>(13)</span></li>
+                                <li>Works <span>(15)</span></li>
+                                <li>Spors <span>(6)</span></li>
+                                <li>Family <span>(9)</span></li>
+                                <li>Happy <span>(40)</span></li>
+                            </ul>
+                        </div>
+                        <div class="add_group">
+                            <input class="add_group_btn" type="button" value="Add Group">
+                        </div>
+                    </div>
+                    <div class="list">
+                        <div class="list_btn">
+                            <input type="button" class="add" value="Add Contacts" id="add_contacts">
+                            <input type="button" class="move" id="move_group" value="Move to group">
+                            <input type="button" class="delt" value="Delete" id="delt_data">
+                        </div>
+                        <div class="tab">
+                            <table border="0" cellpadding="0" cellspacing="0">
+                                <tr>
+                                    <th width="218"><a href="javascript:" class="all" id="all_a"></a>Name</th>
+                                    <th>Phone number</th>
+                                    <th width="100"></th>
+                                </tr>
+                                <tr>
+                                    <td><a href="javascript:" class="tips"></a><input type="text" value="Tom July" disabled></td>
+                                    <td><input type="text" value="13425424152" disabled></td>
+                                    <td><a href="javascript:" class="write"><img src="images/edit_a.png" ></a></td>
+                                </tr>
+                                <tr>
+                                    <td><a href="javascript:" class="tips"></a><input type="text" value="June Po" disabled></td>
+                                    <td><input type="text" value="0207852459" disabled></td>
+                                    <td><a href="javascript:" class="write"><img src="images/edit_a.png" ></a></td>
+                                </tr>
+                                <tr>
+                                    <td><a href="javascript:" class="tips"></a><input type="text" value="Lily" disabled></td>
+                                    <td><input type="text" value="0109425715" disabled></td>
+                                    <td><a href="javascript:" class="write"><img src="images/edit_a.png" ></a></td>
+                                </tr>
+                                <tr>
+                                    <td><a href="javascript:" class="tips"></a><input type="text" value="Fokechu" disabled></td>
+                                    <td><input type="text" value="788445265" disabled></td>
+                                    <td><a href="javascript:" class="write"><img src="images/edit_a.png" ></a></td>
+                                </tr>
+                                <tr>
+                                    <td><a href="javascript:" class="tips"></a><input type="text" value="Bookesn" disabled></td>
+                                    <td><input type="text" value="0106459895" disabled></td>
+                                    <td><a href="javascript:" class="write"><img src="images/edit_a.png" ></a></td>
+                                </tr>
+                                <tr>
+                                    <td><a href="javascript:" class="tips"></a><input type="text" value="Box" disabled></td>
+                                    <td><input type="text" value="0155274552" disabled></td>
+                                    <td><a href="javascript:" class="write"><img src="images/edit_a.png" ></a></td>
+                                </tr>
+                                <tr>
+                                    <td><a href="javascript:" class="tips"></a><input type="text" value="Happy" disabled></td>
+                                    <td><input type="text" value="0107568957" disabled></td>
+                                    <td><a href="javascript:" class="write"><img src="images/edit_a.png" ></a></td>
+                                </tr>
+                                <tr>
+                                    <td><a href="javascript:" class="tips"></a><input type="text" value="Apple" disabled></td>
+                                    <td><input type="text" value="0105784654" disabled></td>
+                                    <td><a href="javascript:" class="write"><img src="images/edit_a.png" ></a></td>
+                                </tr>
+                                <tr>
+                                    <td><a href="javascript:" class="tips"></a><input type="text" value="Orange" disabled></td>
+                                    <td><input type="text" value="0102495966" disabled></td>
+                                    <td><a href="javascript:" class="write"><img src="images/edit_a.png" ></a></td>
+                                </tr>
+                                <tr>
+                                    <td><a href="javascript:" class="tips"></a><input type="text" value="Vrey gkhh" disabled></td>
+                                    <td><input type="text" value="0106459895" disabled></td>
+                                    <td><a href="javascript:" class="write"><img src="images/edit_a.png" ></a></td>
+                                </tr>
+                                <tr>
+                                    <td><a href="javascript:" class="tips"></a><input type="text" value="Bhij" disabled></td>
+                                    <td><input type="text" value="0155274552" disabled></td>
+                                    <td><a href="javascript:" class="write"><img src="images/edit_a.png" ></a></td>
+                                </tr>
+                                <tr>
+                                    <td><a href="javascript:" class="tips"></a><input type="text" value="VJ" disabled></td>
+                                    <td><input type="text" value="0107568957" disabled></td>
+                                    <td><a href="javascript:" class="write"><img src="images/edit_a.png" ></a></td>
+                                </tr>
+                                <tr>
+                                    <td><a href="javascript:" class="tips"></a><input type="text" value="VIVI" disabled></td>
+                                    <td><input type="text" value="4878777468" disabled></td>
+                                    <td><a href="javascript:" class="write"><img src="images/edit_a.png" ></a></td>
+                                </tr>
+                            </table>
+                        </div>
+                        <div class="outpage">
+                            <div class="page">
+                                <a href="javascript:" class="last">
+                                     <img src="images/last.png" alt="">
+                                </a>
+                                <a href="javascript:" class="at">1</a>
+                                <a href="javascript:" class="at">2</a>
+                                <a href="javascript:" class="at">3</a>
+                                <a href="javascript:" class="at">4</a>
+                                <a href="javascript:" class="at">5</a>
+                                <a href="javascript:" class="at">6</a>
+                                <a href="javascript:" class="at">7</a>
+                                <a href="javascript:" class="next">
+                                    <img src="images/next.png" alt="">
+                                </a>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+             <!-- menu2 end-->
+
+            <!-- menu3 start -->
+            <div class="blacklist">
+                <div class="tit">
+                    <h3>Blacklist</h3>
+                    <h4>Here you can manage the list of contacts that will not receive any Call Shine messages from you. </h4>
+                </div>
+                <div class="blacklist_con">
+                    <div class="blacklist_left">
+                        <div class="top">
+                            Blacklist
+                        </div>
+                        <div class="data">
+                            <ul>
+                                <li>
+                                    <em title="Jonh 123456789">Jonh</em>
+                                    <a href="javascript:"><img src="images/dele.png" width="15" height="15" /></a>
+                                </li>
+                                <li>
+                                    <em title="Jackghknhuhijikkk 123456789">Jackghknhuhijikkk</em>
+                                    <a href="javascript:"><img src="images/dele.png" width="15" height="15" /></a>
+                                </li>
+                                <li>
+                                    <em title="Anna 123456789">Anna</em>
+                                    <a href="javascript:"><img src="images/dele.png" width="15" height="15" /></a>
+                                </li>
+                                <li>
+                                    <em title="July 123456789">July</em>
+                                    <a href="javascript:"><img src="images/dele.png" width="15" height="15" /></a>
+                                </li>
+                                <li>
+                                    <em title="Lily 123456789">Lily</em>
+                                    <a href="javascript:"><img src="images/dele.png" width="15" height="15" /></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="blacklist_right">
+                        <div class="top">
+                            Insert a number in Blackist
+                        </div>
+                        <div class="info">
+                            <table border="0" cellpadding="0" cellspacing="0">
+                                <tr>
+                                    <td width="206">Mobile Number</td>
+                                    <td><input class="input_text" type="text"></td>
+                                </tr>
+                                <tr>
+                                    <td width="206">Name</td>
+                                    <td><input class="input_text" type="text"></td>
+                                </tr>
+                                <tr>
+                                    <td>&nbsp;</td>
+                                    <td><input class="input_btn2" type="button" value="ADD"></td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- menu3 end -->
+
+            <!-- menu4 start -->
+            <div class="contents">
+                <div class="tit">
+                    <h3>Contents</h3>
+                    <h4>Here we selected the most commom messages to make Call Shine even easier to use.</h4>
+                </div>
+                <div class="contents_con">
+                    <div class="radio">
+                        <ul>
+                            <li>
+                                <a href="javascript:"></a>
+                                <p>I'm in a meeting.Please call later.</p>
+                            </li>
+                            <li>
+                                <a class="no" href="javascript:"></a>
+                                <p>I'm so basy now.Please call later.</p>
+                            </li>
+                            <li>
+                                <a class="no" href="javascript:"></a>
+                                <p>Sorry,I was went out,Please call later. I was went out,Please call later. I was went out,Please call later. </p>
+                            </li>
+                            <li>
+                                <a class="no" href="javascript:"></a>
+                                <p>I'm in a meeting.Please call later.</p>
+                            </li>
+                            <li>
+                                <a class="no" href="javascript:"></a>
+                                <p>I'm so basy now.Please call later.</p>
+                            </li>
+                            <li>
+                                <a class="no" href="javascript:"></a>
+                                <p>Sorry,I was went out,Please call later. </p>
+                            </li>  
+                        </ul>
+                    </div>
+                    <div class="choose">
+                                <table border="0" cellpadding="0" cellspacing="0">
+                                    <tr>
+                                        <th width="268">Message State</th>
+                                        <th width="228">The receiver</th>
+                                        <th>Sending time</th>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div class="state">
+                                                <ul>
+                                                    <li>
+                                                        <a class="sel" href="javascript:">Send message<br>
+                                                    when i made a call</a>
+                                                    </li>
+                                                    <li>
+                                                       <a href="javascript:">Send message<br>
+                                                    when i receive a call</a> 
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="receiver">
+                                                <ul>
+                                                    <li><a class="sel" href="javascript:">Everybody</a></li>
+                                                    <li><a href="#select_member" class="knowmore_a">Specific contact</a></li>
+                                                    <li><a href="#group" class="knowmore_a">Group</a></li>
+                                                </ul>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="time">
+                                                <p>
+                                                    <span>
+                                                        S<br>
+                                                        <img src="images/check_on.png" class="have">
+                                                    </span>
+                                                    <span>
+                                                        M<br>
+                                                        <img src="images/check_off.png" alt="">
+                                                    </span>
+                                                    <span>
+                                                        T<br>
+                                                        <img src="images/check_off.png" alt="">
+                                                    </span>
+                                                    <span>
+                                                        W<br>
+                                                        <img src="images/check_off.png" alt="">
+                                                    </span>
+                                                    <span>
+                                                        T<br>
+                                                        <img src="images/check_off.png" alt="">
+                                                    </span>
+                                                    <span>
+                                                        F<br>
+                                                        <img src="images/check_off.png" alt="">
+                                                    </span>
+                                                    <span>
+                                                        S<br>
+                                                        <img src="images/check_off.png" alt="">
+                                                    </span>
+                                                </p>
+                                                <h5>
+                                                    Hour <a href="javascript:">
+                                                        08:00
+                                                    </a>
+                                                    To
+                                                    <a href="javascript:">
+                                                        08:00
+                                                    </a>
+                                                </h5>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="3">
+                                            <input type="button" value="Submit" class="save">
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                </div>
+            </div>
+            <!-- menu4 end -->
+
+            <!-- menu5 start -->
+            <div class="cancel2">
+                <div class="cancel_info">
+                    <div class="tit">
+                        Here you can cancel the Call Shine Service.
+                    </div>
+                    <div class="cancel_btn">
+                        <input type="button" id="input_cancel" value="Cancle">
+                    </div>
+                </div>
+            </div>
+        </div>  
+    </div> 
+</div>
+<!-- 大体内容 end -->
+<!-- footer start-->
+<div id="footer">
+    <div class="line">
+        <ul>
+            <a class="menu_item_2" id="footer0" key="0">
+                <li>
+                    Message
+                </li>
+            </a>
+            <a class="menu_item_2" id="footer1" key="1">
+                <li>
+                   Contacts
+                </li>
+            </a>
+            <a class="menu_item_2" id="footer2" key="2">
+                <li>
+                    Blacklist
+                </li>
+            </a>
+            <a class="menu_item_2" id="footer5" key="3">
+                <li>
+                    Contents
+                </li>
+            </a>
+            <a class="menu_item_2" id="footer6" key="5">
+                <li>
+                    Cancel
+                </li>
+            </a>
+        </ul>
+    </div>
+    <div class="under">
+        <div class="center">
+            <hr>
+            <div class="telefonica">
+            </div>
+            <div class="vivo">
+            </div>
+        </div>
+    </div>
+</div>
+<!-- footer end -->
+<!-- 各类弹框 knowmore -->
+<div style="display:none">
+    <div id="knowmore" class="modal">
+        <div class="cont">
+            <div class="modal_header">
+                <div class="close"></div>
+                <div class="title">You five possibilities to choose<br>how send the messages</div>
+            </div>
+            <div class="text">
+                <h3>You can have three possibilities to choose who will receive the messages: </h3>
+                <p class="p_bg2">Everybody: the message will be send to everybody EXCEPT to people that have a message with Specific Contact or Group settings. </p>
+                <p class="p_bg2">Specific contact: the message will be send to a specific contact.</p>
+                <p class="p_bg2">Group: the message will be send to a group you created.</p>
+                <h3>You have two ways to choose when you send the messages:</h3>
+                <p class="p_bg2">Time segment: you can choose a period of hours to send the message.</p>
+                <p class="p_bg2">ending time: choose the day of week that you want send the message.</p>
+                <p class="p_1">* If you create a message with the exactly the same settings you will receive a warning message to choose which message you want keep activated. </p>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- save -->
+<div style="display: none">
+    <a href="#alertsave" class="knowmore_a" id="save_btn_a"></a>
+    <div id="alertsave" class="modal">
+        <div class="cont">
+            <div class="modal_header">
+                    <div class="close"></div>
+                    <div class="title"></div>
+            </div>
+            <div id="message" class="text_left">Your message was successfully created!</div>
+        </div>
+    </div>    
+</div>
+<!-- cancel -->
+<div style="display:none">
+    <a href="#alertcancel" class="knowmore_a" id="cancel_btn_a"></a>
+    <div id="alertcancel" class="modal">
+        <div class="cont">
+            <div class="modal_header">
+                <div class="close"></div>
+                <div class="title"></div>
+            </div>
+            <div class="wd">
+                Are you sure that you want cancel 
+                the service?
+            </div>
+            <div class="input">
+                <input type="button" id="yes_btn" class="yes" value="YES">
+                <input type="button" class="close no" value="NO">
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Specific contact -->
+<div style="display:none">
+    <a href="#specific" class="knowmore_a specific_a"></a>
+    <div id="specific" class="modal">
+        <div class="cont">
+            <div class="modal_header">
+                <div class="close"></div>
+                <div class="title">Insert the number of the Contact</div>
+            </div>
+            <div class="number">
+                <table border="0" cellpadding="0" cellspacing="0">
+                    <tr>
+                        <td width="185">Mobile Number</td>
+                        <td><input type="text" class="input_text"></td>
+                    </tr>
+                    <tr>
+                        <td width="185">Name</td>
+                        <td><input type="text" class="input_text"></td>
+                    </tr>
+                    <tr>
+                        <td width="185">&nbsp;</td>
+                        <td>
+                            <input type="button" value="ADD" class="close input_btn">
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Group -->
+<div style="display:none">
+    <div id="group" class="modal">
+        <div class="cont">
+            <div class="modal_header">
+                <div class="close"></div>
+                <div class="title">My Groups</div>
+            </div>
+            <div class="list">
+                <ul>
+                    <li>
+                        <div class="li_left sel">
+                            Friend
+                        </div>
+                        <div class="li_right">
+                            <a href="javascript:" class="write">
+                                <img src="images/edit2.png" width="25" height="23">
+                            </a>
+                            <a href="javascript:" class="del">
+                                <img src="images/dele_a.png" width="19" width="19">
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="li_left">
+                            Family
+                        </div>
+                        <div class="li_right">
+                            <a href="javascript:" class="write">
+                                <img src="images/edit2.png" width="25" height="23">
+                            </a>
+                            <a href="javascript:" class="del">
+                                <img src="images/dele_a.png" width="19" width="19">
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="li_left">
+                            Works
+                        </div>
+                        <div class="li_right">
+                            <a href="javascript:" class="write">
+                                <img src="images/edit2.png" width="25" height="23">
+                            </a>
+                            <a href="javascript:" class="del">
+                                <img src="images/dele_a.png" width="19" width="19">
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="li_left">
+                            Sport
+                        </div>
+                        <div class="li_right">
+                            <a href="javascript:" class="write">
+                                <img src="images/edit2.png" width="25" height="23">
+                            </a>
+                            <a href="javascript:" class="del">
+                                <img src="images/dele_a.png" width="19" width="19">
+                            </a>
+                        </div>
+                    </li>
+                </ul>
+                <input class="add_group_btn" id="" type="button" value="ADD Group">
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Add Group -->
+<div style="display:none">
+    <a href="#add_group" id="add_group_a" class="knowmore_a"></a>
+    <div id="add_group" class="modal">
+        <div class="cont">
+            <div class="modal_header">
+                <div class="close"></div>
+                <div class="title">Insert a new group</div>
+            </div>
+            <div class="number">
+                <table border="0" cellpadding="0" cellspacing="0">
+                    <tr>
+                        <td width="185">Group Name</td>
+                        <td><input type="text" class="input_text"></td>
+                    </tr>
+                    <tr>
+                        <td width="185">Contact Name</td>
+                        <td><input type="text" class="input_text"></td>
+                    </tr>
+                    <tr>
+                        <td width="185">Mobile Number</td>
+                        <td><input type="text" class="input_text"></td>
+                    </tr>
+                    <tr>
+                        <td width="185">&nbsp;</td>
+                        <td>
+                            <input type="button" value="ADD" class="input_btn">
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Gruop - Fast men -->
+<div style="display:none">
+    <a href="#fast_men" id="fast_men_a" class="box_small"></a>
+    <div id="fast_men" class="modal">
+        <div class="cont">
+            <div class="modal_header">
+                <!-- <div class="close"></div> -->
+                <div class="title">Group - Fast men</div>
+            </div>
+            <div class="list">
+                <ul>
+                    <li>
+                        <div class="li_left sel">
+                            July lin
+                        </div>
+                        <div class="li_right">
+                            <a href="javascript:" class="del">
+                                <img src="images/dele_a.png" width="19" width="19">
+                            </a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="select_btn">
+                <input type="button" class="add_other_contact" value="Add another contact">
+                <input type="button" class="close save_gruop" value="Save Group">
+            </div>
+        </div>
+    </div>
+</div>
+<!-- delete Blacklist -->
+<div style="display:none">
+    <a href="#delete_black" class="knowmore_a" id="delete_black_a"></a>
+    <div id="delete_black" class="modal">
+        <div class="cont">
+            <div class="modal_header">
+                <div class="close"></div>
+            </div>
+            <div class="black">You will delete <em></em>,click OK,and <em></em> will not appear on the blacklist.</div>
+            <div class="yes_no">
+                <input type="button" class="close" id="btn_no" value="NO">
+                <input type="button" class="close" id="btn_yes" value="YES">
+            </div>
+        </div>
+    </div>
+</div>
+<!-- group select -->
+<div style="display:none">
+    <div id="select_member" class="modal">
+        <div class="cont">
+            <div class="modal_header">
+                <div class="close"></div>
+                <div class="title">Please select a contact in group, <br>or add a new contact</div>
+            </div>
+            <div class="table">
+                <table class="table_group" border="0" cellpadding="0" cellspacing="0">
+                    <tr>
+                        <th>group1</th>
+                        <th>group2</th>
+                        <th>group3</th>
+                        <th>group4</th>
+                    </tr>
+                    <tr>
+                        <td><span class="cho sel">name1</span></td>
+                        <td><span class="cho">name2</span></td>
+                        <td><span class="cho">name3</span></td>
+                        <td><span class="cho">name4</span></td>
+                    </tr>
+                    <tr>
+                        <td><span class="cho">name1</span></td>
+                        <td><span class="cho">name2</span></td>
+                        <td><span class="cho">name3</span></td>
+                        <td><span class="cho">name4</span></td>
+                    </tr>
+                    <tr>
+                        <td><span class="cho">name1</span></td>
+                        <td><span class="cho">name2</span></td>
+                        <td><span class="cho">name3</span></td>
+                        <td><span class="cho">name4</span></td>
+                    </tr>
+                    <tr>
+                        <td><span class="cho">name1</span></td>
+                        <td><span class="cho">name2</span></td>
+                        <td><span class="cho">name3</span></td>
+                        <td><span class="cho">name4</span></td>
+                    </tr>
+                    <tr>
+                        <td><span class="cho">name1</span></td>
+                        <td><span class="cho">name2</span></td>
+                        <td><span class="cho">name3</span></td>
+                        <td><span class="cho">name4</span></td>
+                    </tr>
+                    <tr>
+                        <td><span class="cho">name1</span></td>
+                        <td><span class="cho">name2</span></td>
+                        <td><span class="cho">name3</span></td>
+                        <td><span class="cho">name4</span></td>
+                    </tr>
+                    <tr>
+                        <td><span class="cho">name1</span></td>
+                        <td><span class="cho">name2</span></td>
+                        <td><span class="cho">name3</span></td>
+                        <td><span class="cho">name4</span></td>
+                    </tr>
+                </table>
+            </div>
+            <div class="addbtn">
+                <a href="#specific" class="knowmore_a">ADD New</a>
+                <input type="button" class="close" value="OK">
+            </div>
+        </div>
+    </div>
+</div>
+<!-- movegroup -->
+<div class="alertmove">
+    <ul>
+        <li>Works</li>
+        <li>Spors</li>
+        <li>Family</li>
+        <li>Happy</li>
+    </ul>
+</div>
+</body>
+</html>
